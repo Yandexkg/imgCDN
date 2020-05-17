@@ -1,0 +1,116 @@
+/*
+Authorï¼šEscher1108
+Date:2020.3.16
+Website:https://jkgblog.com
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg-1.jpg");
+    background-size: cover;
+	background-position: center center;
+    font-family: sans-serif;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border: 10px solid rgba(255,255,255,.2);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+.imgBox{
+    width: 350px;
+    height: 420px;
+    float: left;
+    overflow: hidden;
+    background: url("../img/pb.jpg");
+    background-size: cover;
+}
+.imgBox img{
+    width: 100%;
+}
+.loginBox{
+    float: right;
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    background: rgba(255,255,255,.8);
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #262626;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    /*box-sizing: border-box;*/
+}
+h3{
+    margin: 0;
+    padding: 0;
+    color: #262626;
+}
+::placeholder{
+    color: rgba(0,0,0,.5);
+}
+.inputBox{
+    position: relative;
+}
+.inputBox span{
+    position: absolute;
+    top: 10px;
+    color: #262626;
+}
+.loginBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 40px;
+    background: #ed292a;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.loginBox input[type="submit"]:hover{
+    transform: scale(0.96);
+}
+.loginBox a{
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.copyrightBox{
+    margin-top: 85px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.copyrightBox a{
+    font-size: 0.5rem;
+}
+/*
+Authorï¼šEscher1108
+Date:2020.3.16
+Website:https://jkgblog.com
+*/
