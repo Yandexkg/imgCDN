@@ -14,9 +14,9 @@ error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 date_default_timezone_set("PRC");
 define("REPO","images");//必须是下面用户名下的公开仓库
-define("USER","Escher1108");//必须是当前GitHub用户名
+define("USER","Yandexkg");//必须是当前GitHub用户名
 define("MAIL","mail@foxmail.com");//
-define("TOKEN"," 6b0be743aceb40fee2d5ad204328605faad1c314");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
+define("TOKEN","ce0914c7ac2b644d589320be63caee10134ff905");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
 
 function upload($url, $content)
 {
